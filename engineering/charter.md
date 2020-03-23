@@ -1,1 +1,0 @@
-Before starting any project, we sit down with the product owner, calmly to write down the project definition doc.
