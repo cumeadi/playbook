@@ -28,19 +28,17 @@ At minimal:
 - No debugging code .ie `console.log`/`fmt.Print`/.etc unless you have a good reason for it
 - Never commit environment files to source control (.ie `.env` files for example), unless you have a good reason for it
 
-### About testing
+### Test Coverage 
 
 We don't follow TDD, we don't need to have tests for everything but we must have test to cover critical parts of the application. Test cases ensure that our app is working and without bugs whenever we introduce new features into it. Test cases also gives us the affordance to refactor and improve our code quality. With refactoring, we learn better coding practices and improve ourselves as a coder.
+
+We require engineer to at least have unit test for their code
+
+![](/engineering/img/pyramid-of-unit-testing.png)
 
 ### Naming convention
 
 This topic varies depends what programming language we use as each language have their own best practices, but a general rule is to make it clear about our intention - ie. if you have no idea what a particular variable is for while reviewing a helper function, then that variable needs more comments or a new name to better reflects it's intention.
-
-### Single Responsibility Principle
-
-Every class and method should only do one thing. We should not lump every logic and responsibility into a God class or a super method. This makes code difficult to understand and hard to change.
-
-There are more, but we try to only put important items in this section, the rest would be better explained/introduced during coding/reviewing while working with your team.
 
 ## Dos and Don'ts
 
